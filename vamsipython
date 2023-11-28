@@ -1,0 +1,8 @@
+#count number of vowles in a
+a = 'programing is fun'
+c = 'aeiouAEIOU'
+count = 0
+for lens in a:
+    if lens in c:
+        count = count+1
+print(count)  
