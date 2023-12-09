@@ -1,0 +1,17 @@
+#How we find prime numbers
+
+def primenumbers(n):
+      prime_numbers=[]
+      
+      for i in range(2,n):
+        
+        for j in range(1,i+1):
+            if i%j == 0:
+                cnt = cnt + 1
+        if cnt == 2:
+            prime_numbers.append(i)
+      return prime_numbers 
+            
+
+b = primenumbers(50)
+print(b)
